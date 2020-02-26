@@ -1,1 +1,1 @@
-![Capture.PNG](https://github.com/Kanuardo/TicketSystem/tree/master/public/img/Capture.PNG)
+![Capture.PNG](https://github.com/Kanuardo/Klika--Tech-Playlist/tree/master/public/img/Capture.PNG)
