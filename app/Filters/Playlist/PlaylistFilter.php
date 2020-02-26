@@ -20,7 +20,7 @@ class PlaylistFilter extends FiltersAbstract
 
     public static function mappings()
     {
-        return [
+        $map= [
             'artist'=>[
                     'Drake'=>'Drake',
                     'Imagine Dragons'=>'Imagine Dragons',
@@ -63,6 +63,7 @@ class PlaylistFilter extends FiltersAbstract
                     '2018'=>'2018',
                     '2019'=>'2019'],
         ];
+        return $map;
     }
 
 }

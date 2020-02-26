@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Playlist'),
+    'name' => env('APP_NAME', 'Klika-Tech-Playlist'),
 
     /*
     |--------------------------------------------------------------------------

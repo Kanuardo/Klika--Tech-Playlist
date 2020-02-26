@@ -19,6 +19,11 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::get('/playlists', function () {
+    return view('playlists.index');
+});
+
 Route::group(['prefix'=>'/api'], function(){
-    Route::get('/playlist', 'Api\PlaylistController@index')->name('playlist.index');
+    Route::get('/playlist', 'Api\PlaylistController@index');
+    Route::get('/playlist/filters', 'Api\PlaylistController@filters');
 });
